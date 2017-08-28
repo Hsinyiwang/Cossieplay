@@ -3,6 +3,15 @@
 
 .happy li {
 	display: inline;
+	margin: 5px;
+	Background-color: lightgreen;
+	padding: 5px;
+	border-radius: 5px;
+	
+	 
+}
+a {
+	text-decoration: none;
 }
 
 .container{
@@ -13,8 +22,21 @@
 }
 .textincenter{
 	Text-align: center;
-	Margin: 0px 200px 0px 200px
+	Margin: 0% 20% 0% 20%;
 }
 .textjustify{
 	text-align: justify
+}
+.imagedevil{
+	width: 70%;
+	
+	
+}
+
+body {
+	background-image: url(../../../../Documents/sign-up.jpg);
+}
+
+.textindex{
+	color: wheat
 }
