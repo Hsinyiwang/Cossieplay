@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.happy li {
+	display: inline;
+}
+
+.container{
+	text-align: center;
+}
+.center{
+	margin: auto;
+}
+.textincenter{
+	Text-align: center;
+	Margin: 0px 200px 0px 200px
+}
+.textjustify{
+	text-align: justify
+}
