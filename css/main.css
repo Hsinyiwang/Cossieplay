@@ -2,9 +2,9 @@
 /* CSS Document */
 
 .happy li {
-	display: inline;
 	margin: 5px;
-	Background-color: lightgreen;
+	Background-color: #ccc;
+	color:black;
 	padding: 5px;
 	border-radius: 5px;
 	
@@ -12,9 +12,14 @@
 }
 a {
 	text-decoration: none;
+	color:black;
 }
 
-.container{
+ul {
+	list-style-type: none
+}
+
+.centerset{
 	text-align: center;
 }
 .center{
@@ -34,9 +39,53 @@ a {
 }
 
 body {
-	background-image: url(../../../../Documents/sign-up.jpg);
+/*	background-image: url(../../../../Documents/sign-up.jpg);*/
+	font-family: sans-serif
 }
 
 .textindex{
-	color: wheat
+	color: black
 }
+
+
+.botton {
+	padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	
+}
+
+
+.navigationBar {
+	vertical-align: top
+	
+}
+
+
+
+.pricelist-table tr:nth-child(even){
+	background-color: #ccc;
+}
+
+
+
+.center-table{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+.blue{
+	color:blue;
+}
+
+
+.cellPadding {
+	padding-right: 20px;
+}
+
