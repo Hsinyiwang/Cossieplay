@@ -100,15 +100,29 @@ body {
 }
 
 
-
 .pricelist-table tr:nth-child(even){
-	background-color: #ccc;
+/*	background-color: #ccc;*/
 }
 
 .pricelist-table tr td{
 	padding: 5px;
 }
 
+.pricelist-table th {
+	text-align: left;
+	padding-right: 20px;
+}
+
+.pricelist-table th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+.pricelist-table tr:hover {
+	background-color: #f5f5f5
+}
+.pricelist-table {
+	width: 400px;
+}
 
 .center-table{
 	width:50%;
