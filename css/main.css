@@ -3,12 +3,16 @@
 
 .happy li {
 	margin: 5px;
-	Background-color: #ccc;
+	Background-color: white;
 	color:black;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 3px;
 	
 	 
+}
+
+.happy {
+	padding: 10px 25px 25px 25px;
 }
 
 .list-inline li {
@@ -71,8 +75,8 @@ body {
 
 
 .navigationBar {
-	vertical-align: top
-	
+	vertical-align: top;
+	border-radius: 10px;
 }
 
 
